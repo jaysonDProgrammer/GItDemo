@@ -15,6 +15,10 @@ class Employee:
       
 emp1 = Employee("Zara", 2000)
 emp2 = Employee("Manni", 5000)
+emp3 = Employee("Jani", 6000)
 emp1.displayEmployee()
 emp2.displayEmployee()
+emp3.displayEmployee()
+
+print ("Total Employee %d" % Employee.empCount)
 print ("Total Employee %d" % Employee.empCount)
